@@ -1,1 +1,2 @@
-docker run --rm --name gradle frekele/gradle
+docker build . -t soflex/gradle-jdk:4.10
+docker run --rm --name gradle soflex/gradle-jdk:4.10
